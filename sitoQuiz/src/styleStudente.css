@@ -1,0 +1,98 @@
+.bodysvolgi{
+	
+}
+
+.contAvvia{
+	border-radius: 21px;
+    background-color: rgb(108, 219, 251);
+    padding: 20px;
+	border-radius: 20px;
+    font-family: Verdana;
+	font-size:20px;
+	text-align:center;
+}
+
+.avvia{
+    background-color: rgb(51,123,168);
+    padding: 20px;
+	border-radius: 20px;
+    margin-top: 50%;
+}
+
+.btncenter{
+	/*text-align: center;*/
+}
+
+
+.visSvolgi{
+
+	background-color: rgb(1,86,124);
+	padding:20px;
+	border-radius:20px;
+	box-shadow:9px 6px 3px 2px rgb(163, 204, 234);
+	margin:125px;
+
+}
+
+.contSvolgi{
+	border-radius: 21px;
+    background-color: rgb(108, 219, 251);
+	border-radius: 20px;
+}
+
+.testoquiz{
+	    border-width: 0px;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-color: #000000;
+    border-radius: 1em;
+    border-style: solid;
+    padding: 2em 3em;
+    padding-bottom: 3em;
+	font-family: Verdana;
+	font-size: 1.1em;
+	
+}
+/*
+.style-seven {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+	margin-left: -20px;
+    margin-right: -20px;
+}
+.style-seven:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+	
+}*/
+
+.btnaggiungi{
+	 margin: 1.8em;
+	 float:right;
+	 color:black;
+	 padding: 0.8em 1.5em;
+	 background-color:rgb(108, 219, 251);
+}
+
+.btnaggiungi:hover{
+	 
+	 background-color:rgb(112, 183, 236);
+	 box-shadow: 2px 3px 4px rgb(108, 219, 251);
+	
+}
+
+
+.bodyc{
+    margin: 0;
+    background-color: #d0f0ffe8;
+}

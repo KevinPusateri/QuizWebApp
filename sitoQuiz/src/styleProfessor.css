@@ -1,0 +1,407 @@
+body{
+	height:100%;
+	height: 100%;
+    padding: 0;
+    margin: 0;
+	background-color: #d0f0ffe8;
+}
+
+
+.contDomanda{
+	width:auto;
+	background-color:rgb(51,123,168);
+	height: 74%;
+    width: auto;
+    background-color: rgb(51,123,168);
+    padding: 35px;
+}
+
+#qst{
+	width:30%;
+}
+
+.domanda input[type="number"]
+{
+
+	  border: none;
+    border-bottom: 2px solid rgb(51,123,168);
+    outline: none;
+    height: 22px;
+    color: black;
+    background: transparent;
+    font-size: 18px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    width: 8%;
+}
+
+.domanda input[type="text"]
+{
+
+	 border: none;
+    border-bottom: 2px solid rgb(51,123,168);
+    outline: none;
+    height: 27px;
+    color: black;
+    background: transparent;
+    font-size: 18px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    width: 25%;
+}
+
+
+#risp input[type="text"]
+{
+
+	border: none;
+    border-bottom: 2px solid rgb(51,123,168);
+    outline: none;
+    height: 27px;
+    color: black;
+    background: transparent;
+    font-size: 18px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+#risp{
+	float: left;
+	margin:-21px;
+}
+
+#risp_riemp{
+	width:auto;
+	height:280px;
+}
+
+#back{
+	float:left;
+}
+
+#main{
+	    width: 450px;
+    box-sizing: border-box;
+    background: transparent;
+    margin: 20px auto;
+    border-radius: 5px;
+
+}
+
+
+/*------------header------------*/
+.cont{
+	border-radius: 21px;
+    background-color: rgb(108, 219, 251);
+    padding: 20px;
+	border-radius: 20px;
+}
+
+.header{
+  width:100%;
+  background-color: rgb(23,161,200);
+  top: 0;
+  opacity:0.8;
+  padding:0;
+}
+
+
+
+.header__logo{
+	float:left;
+	display: block;
+	padding:15px;
+	height:90px;
+	
+
+}
+.header__menu{
+	/*float:right;*/
+	margin:0;
+	padding:0 25px;
+}
+.header__menu__item{
+	margin-top: 10px;
+	display: inline-block;
+}
+.header__menu__item a{
+	width: 165px;
+	color: white;
+	display: block;
+	padding:20px;
+	text-decoration: none;
+	font-size:20px;
+	font-family:Century Gothix;
+	font-weight: bold;
+	text-align: center;
+}
+.header__menu__item a:hover{
+	background-color: rgb(51,123,168);	
+}
+.header__icon-bar{
+	display: block;
+	float: right;
+	padding: 25px;
+	display: none;
+}
+.header__icon-bar span{
+	display: block;
+	height:3px; 
+	width: 30px;
+	background: #fff;
+	margin-bottom: 10px;
+}
+
+a:hover{
+	background:#589774;
+	
+}
+.header__menu ul{
+	background-color: rgb(123,168,202);
+	
+}
+.dropbtn {
+	background-color: rgb(23,161,200);
+    color: white;
+    padding: 16px;
+	font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width:165px;
+	font-family:Century Gothix;
+	font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	text-decoration:none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 165px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    	background-color: rgb(51,123,168);	
+
+}
+
+
+/*------------Contenuto------------*/
+
+.cont input[type="text"]
+{
+    border: none;
+    border-bottom: 2px solid rgb(51,123,168);
+    outline: none;
+    height: 22px;
+    color: black;
+    background: transparent;
+    font-size: 18px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.cont input[type="text"]::placeholder{
+		color: rgb(51,123,168);
+}
+/*------------Elenco------------*/
+
+.visquiz {
+
+	background-color: rgb(1,86,124);
+	padding:20px;
+	border-radius:20px;
+	box-shadow:9px 6px 3px 2px rgb(163, 204, 234);
+
+}
+.loginBox input[type="text"]:focus
+{
+	border-bottom: 2px solid #f00;
+}
+.btn{
+	background-color: rgb(51,123,168);
+	color:white;
+	padding:10px;
+	border-radius:20px;
+	border:1px solid; 	
+	cursor: pointer;
+}
+
+.btn:hover{
+	 background-color:rgb(1,86,124);
+	 box-shadow: 2px 3px 4px rgb(1,86,124);
+}
+
+.btnatt{
+	background-color: green;
+	color:white;
+	padding:10px;
+	border-radius:20px;
+	border:1px solid; 	
+	cursor: pointer;
+	margin-top: 10px;
+}
+.btnatt:hover{
+	background-color: #2bc318;
+	color:white;
+	padding:10px;
+	border-radius:20px;
+	border:1px solid; 	
+	cursor: pointer;
+}
+.btndis{
+	background-color: #c33a3a;
+	color:white;
+	padding:10px;
+	border-radius:20px;
+	border:1px solid;
+	cursor:pointer;
+	margin-top: 10px;
+}
+
+.btndis:hover{
+	background-color: red;
+	color:white;
+	padding:10px;
+	border-radius:20px;
+	border:1px solid;
+	cursor:pointer;
+}
+
+.testo{
+	size:20px;
+	
+}
+
+/*------------------riempimento---------------*/
+.tipologia{
+	padding: 20px;
+    background-color: rgb(163, 204, 234);
+    font-size: 20px;
+	text-align: center;
+	border-radius: 20px;
+
+}
+
+.domanda{
+	background-color: rgb(163, 204, 234);
+    padding: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: CURSIVE;
+    height: 100%;
+
+}
+/*vero e falso*/
+.domandariemp{
+	background-color: rgb(163, 204, 234);
+    padding: 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: CURSIVE;
+
+}
+
+.domandariemp input[type="number"]
+{
+
+	    border: none;
+    border-bottom: 2px solid rgb(51,123,168);
+    outline: none;
+    height: 22px;
+    color: black;
+    background: transparent;
+    font-size: 18px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    width: 8%;
+}
+
+.domandariemp input[type="text"]
+{
+
+	 border: none;
+    border-bottom: 2px solid rgb(51,123,168);
+    outline: none;
+    height: 27px;
+    color: black;
+    background: transparent;
+    font-size: 18px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    width: 15%;
+}
+.contDomandariemp
+{
+	width:auto;
+	background-color:rgb(51,123,168);
+    width: auto;
+    background-color: rgb(51,123,168);
+    padding: 35px;
+}
+
+/*--------------*/
+.crea{
+    background-color: rgb(51,123,168);
+    padding: 20px;
+	border-radius:20px;
+    margin-top: 50%;
+}
+
+
+.contTip {
+	background-color: rgb(51,123,168);	
+	padding:20px;
+}
+
+
+
+.sotto{
+	background-color:red;
+}
+
+
+
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } 
+*:first-child+html .clearfix { zoom: 1; } 
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
